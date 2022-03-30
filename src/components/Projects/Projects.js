@@ -25,7 +25,7 @@ function Projects() {
               title="Movie Booking"
               description="A website that allows users to view movie showtimes, watch movie information, and book movie tickets"
               linkLive="https://movie-booking-khaki.vercel.app"
-              linkGitHub="https://zingnews.vn/"
+              linkGitHub="https://github.com/ngohuynhducdev/MovieBooking"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -34,7 +34,7 @@ function Projects() {
               title="Game 'Bau Cua'"
               description="A mini application that simulates the folk game 'Bau Cua'"
               linkLive="https://bau-cua-fawn.vercel.app"
-              linkGitHub="https://zingnews.vn/"
+              linkGitHub="https://github.com/ngohuynhducdev/BauCua"
             />
           </Col>
 
@@ -44,7 +44,7 @@ function Projects() {
               title="Grabcar Fare Calculator"
               description="Carry out Grabcar fare calculation"
               linkLive="https://bc-11-tinh-tien-grab-ngo-huynh-duc.vercel.app"
-              linkGitHub="https://zingnews.vn/"
+              linkGitHub="https://github.com/ngohuynhducdev/BC11_TinhTienGrab_NgoHuynhDuc"
             />
           </Col>
         </Row>
