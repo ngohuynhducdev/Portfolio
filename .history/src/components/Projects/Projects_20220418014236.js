@@ -23,7 +23,7 @@ function Projects() {
             <ProjectCard
               imgPath={movie}
               title="Movie Booking"
-              description="» A website that allows users to view movie showtimes, watch movie information, and book movie tickets"
+              description="A website that allows users to view movie showtimes, watch movie information, and book movie tickets"
               linkLive="https://movie-booking-khaki.vercel.app"
               linkGitHub="https://github.com/ngohuynhducdev/MovieBooking"
             />
@@ -32,7 +32,7 @@ function Projects() {
             <ProjectCard
               imgPath={FordLogo}
               title="Ford"
-              description="» Clone layout website Ford"
+              description="A mini application that simulates the folk game 'Bau Cua'"
               linkLive="https://layout-ford.vercel.app"
               linkGitHub="https://github.com/ngohuynhducdev/LayoutFord"
             />
@@ -42,7 +42,7 @@ function Projects() {
             <ProjectCard
               imgPath={MovieStar}
               title="Movie Star"
-              description="» Clone layout website Movie Star"
+              description="Clone layout website Movie Star"
               linkLive="https://movie-star-nine.vercel.app"
               linkGitHub="https://github.com/ngohuynhducdev/MovieStar"
             />

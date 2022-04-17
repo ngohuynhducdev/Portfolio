@@ -9,7 +9,6 @@ function ProjectCards(props) {
       <Card.Img
         variant="top"
         height="200px"
-        width="full"
         src={props.imgPath}
         alt="card-img"
       />

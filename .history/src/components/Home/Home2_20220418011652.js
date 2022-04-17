@@ -27,8 +27,8 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  HTML, CSS/SCSS, Javascript, React JS, Bootstrap, Material, Ant
-                  Design, Tailwind, Git, Postman, Photoshop, Illustrator,...{" "}
+                  HTML, CSS/SCSS, Javascript, React JS, Bootstrap,Tailwind, Git,
+                  Postman, Photoshop, Illustrator,...{" "}
                 </b>
               </i>
               <br />

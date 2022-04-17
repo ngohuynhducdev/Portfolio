@@ -4,8 +4,8 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import movie from "../../Assets/Projects/movie.png";
-import FordLogo from "../../Assets/Projects/FordLogo.png";
-import MovieStar from "../../Assets/Projects/MovieStar.png";
+import bauCua from "../../Assets/Projects/bauCua.png";
+import grabCar from "../../Assets/Projects/grabCar.png";
 
 function Projects() {
   return (
@@ -23,16 +23,16 @@ function Projects() {
             <ProjectCard
               imgPath={movie}
               title="Movie Booking"
-              description="» A website that allows users to view movie showtimes, watch movie information, and book movie tickets"
+              description="A website that allows users to view movie showtimes, watch movie information, and book movie tickets"
               linkLive="https://movie-booking-khaki.vercel.app"
               linkGitHub="https://github.com/ngohuynhducdev/MovieBooking"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={FordLogo}
-              title="Ford"
-              description="» Clone layout website Ford"
+              imgPath={bauCua}
+              title="Game 'Bau Cua'"
+              description="A mini application that simulates the folk game 'Bau Cua'"
               linkLive="https://layout-ford.vercel.app"
               linkGitHub="https://github.com/ngohuynhducdev/LayoutFord"
             />
@@ -40,11 +40,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={MovieStar}
-              title="Movie Star"
-              description="» Clone layout website Movie Star"
-              linkLive="https://movie-star-nine.vercel.app"
-              linkGitHub="https://github.com/ngohuynhducdev/MovieStar"
+              imgPath={grabCar}
+              title="Grabcar Fare Calculator"
+              description="Carry out Grabcar fare calculation"
+              linkLive="https://bc-11-tinh-tien-grab-ngo-huynh-duc.vercel.app"
+              linkGitHub="https://github.com/ngohuynhducdev/BC11_TinhTienGrab_NgoHuynhDuc"
             />
           </Col>
         </Row>

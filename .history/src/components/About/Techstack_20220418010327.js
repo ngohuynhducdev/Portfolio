@@ -7,8 +7,6 @@ import {
   SiBootstrap,
   SiAdobephotoshop,
   SiAdobeillustrator,
-  SiTailwindcss,
-  SiMicrosoftoffice,
 } from "react-icons/si";
 import { AiOutlineAntDesign } from "react-icons/ai";
 
@@ -34,9 +32,6 @@ function Techstack() {
         <SiBootstrap />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTailwindcss />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <AiOutlineAntDesign />
       </Col>
 
@@ -49,9 +44,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAdobeillustrator />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMicrosoftoffice />
       </Col>
     </Row>
   );

@@ -4,8 +4,8 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import movie from "../../Assets/Projects/movie.png";
-import FordLogo from "../../Assets/Projects/FordLogo.png";
-import MovieStar from "../../Assets/Projects/MovieStar.png";
+import Ford from "../../Assets/Projects/Ford.jpg";
+import grabCar from "../../Assets/Projects/grabCar.png";
 
 function Projects() {
   return (
@@ -23,16 +23,16 @@ function Projects() {
             <ProjectCard
               imgPath={movie}
               title="Movie Booking"
-              description="» A website that allows users to view movie showtimes, watch movie information, and book movie tickets"
+              description="A website that allows users to view movie showtimes, watch movie information, and book movie tickets"
               linkLive="https://movie-booking-khaki.vercel.app"
               linkGitHub="https://github.com/ngohuynhducdev/MovieBooking"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={FordLogo}
-              title="Ford"
-              description="» Clone layout website Ford"
+              imgPath={Ford}
+              title="Ford'"
+              description="A mini application that simulates the folk game 'Bau Cua'"
               linkLive="https://layout-ford.vercel.app"
               linkGitHub="https://github.com/ngohuynhducdev/LayoutFord"
             />
@@ -40,9 +40,9 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={MovieStar}
+              imgPath={grabCar}
               title="Movie Star"
-              description="» Clone layout website Movie Star"
+              description="Carry out Grabcar fare calculation"
               linkLive="https://movie-star-nine.vercel.app"
               linkGitHub="https://github.com/ngohuynhducdev/MovieStar"
             />
